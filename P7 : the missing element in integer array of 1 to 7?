@@ -1,0 +1,19 @@
+package test2;
+
+public class P7themissingelementinintegerarrayof1to7 {
+
+	public static void main(String[] args) {
+		int a[] = {1,2,3,5,6,7};
+		int i;
+		for (i = 0; i < (a.length - 1); i++) {
+	        int next = a[i + 1];
+	        int current = a[i];
+	        if ((next - current) > 1) {
+	            for (int j = 1; j< next - current; j++)
+	                System.out.println("Missing Value : " + (current + j));
+	        }
+	    }
+
+	}
+
+}
