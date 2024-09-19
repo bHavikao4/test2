@@ -1,6 +1,6 @@
 package test2;
 
-public class P3ifanarraycontainsaspecificvalue {
+public class P4ifanarraycontainsaspecificvalue {
 
 	public static void main(String[] args) {
 		int[] num = {1, 2, 3, 4, 5};
